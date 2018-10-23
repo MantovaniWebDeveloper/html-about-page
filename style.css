@@ -134,6 +134,7 @@
 .boxImg{
   height: 130px;
   width: 30%;
+  position: relative;
 }
 .boxTesto{
   height: 130px;
@@ -145,4 +146,12 @@
   margin-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  height: 120px;
+}
+.cardFilm img {
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
