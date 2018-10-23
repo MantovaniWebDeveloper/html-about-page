@@ -93,6 +93,7 @@
   height: 150px;
   margin-top: 3%;
   border-radius: 2px;
+  padding: 20px;
 }
 .schedaProfilo {
   padding: 20px;
@@ -131,16 +132,6 @@
 #contenutiFilm h3{
   font-weight: 300;
 }
-.boxImg{
-  height: 130px;
-  width: 30%;
-  position: relative;
-}
-.boxTesto{
-  height: 130px;
-  width: 70%;
-  padding: 10px;
-}
 .cardFilm {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -148,10 +139,26 @@
   padding-right: 10px;
   height: 120px;
 }
-.cardFilm img {
+.boxImg{
+  height: 130px;
+  width: 30%;
+  position: relative;
+}
+.boxImg img {
   height: 100px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+.boxTesto{
+  height: 130px;
+  width: 70%;
+  padding: 10px;
+}
+.contenutoFooterSx,
+.contenutoFooterDx
+ {
+  width: 50%;
+  height: 100%
 }
