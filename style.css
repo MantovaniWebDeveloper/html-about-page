@@ -4,8 +4,19 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
-body {
+/***SFONFO COLORI ***/
+.grigioChiaro {
   background-color: #EBEBEB;
+}
+.grigioScuro {
+  background-color: rgba(175, 175, 175, 0.1);
+}
+.bianco {
+  background-color: #fff;
+}
+/*********/
+.clear {
+  clear: both;
 }
 .contenitore {
   margin: 0 auto;
@@ -13,23 +24,24 @@ body {
   margin-bottom: 25px;
   width: 1000px;
   height: 800px;
-  background-color: yellow;
   padding: 20px;
 }
 .contenuti {
-  background-color: red;
   width: 100%;
   height: 100%;
 }
 #infoPersona {
   float: left;
-  width: 40%;
-  background-color: green;
-  height: 100%
+  width: 35%;
+  height: 75%;
 }
 #contenutiFilm {
-  float: left;
+  float: right;
   width: 60%;
-  background-color: orange;
-  height: 100%
+  height: 75%;
+}
+#footerAbout {
+  width: 100%;
+  height: 150px;
+  margin-top: 3%;
 }
