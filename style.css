@@ -45,8 +45,17 @@
 .testoCentrato {
   text-align: center;
 }
+.testoGiustificato {
+  text-align: justify;
+}
 .mt1 {
   margin-top: 10px;
+}
+.fleft{
+  float: left;
+}
+.fright{
+  float: right;
 }
 /*********/
 
@@ -69,19 +78,25 @@
   float: left;
   width: 35%;
   height: 75%;
+  border-radius: 5px;
 }
 #contenutiFilm {
   float: right;
   width: 60%;
   height: 75%;
+  border-radius: 2px;
+  padding: 20px;
+
 }
 #footerAbout {
   width: 100%;
   height: 150px;
   margin-top: 3%;
+  border-radius: 2px;
 }
 .schedaProfilo {
   padding: 20px;
+  margin-bottom: 20px;
 }
 .schedaProfilo-foto-wrapper {
   margin: 0 auto;
@@ -96,4 +111,38 @@
 }
 .testoSchedaProfilo > h2,h3,p{
   padding-top: 20px;
+}
+.social{
+  height: 30%;
+}
+.social > ul,li {
+  list-style-type: none;
+  display: inline-block;
+}
+.listaSocial{
+  position: relative;
+}
+.listaSocial ul {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+#contenutiFilm h3{
+  font-weight: 300;
+}
+.boxImg{
+  height: 130px;
+  width: 30%;
+}
+.boxTesto{
+  height: 130px;
+  width: 70%;
+  padding: 10px;
+}
+.cardFilm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
